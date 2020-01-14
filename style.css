@@ -76,6 +76,7 @@
     display: flex;
     justify-content: center;
     flex: 1 100%;
+    margin-top: 100px;
 }
 
 .search {
@@ -90,6 +91,7 @@
     height: 44px;
     margin: 0 auto;
     width: 482px;
+    margin-bottom: 300px;
 }
 
 
