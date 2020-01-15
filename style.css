@@ -168,8 +168,8 @@
 
 .btn-container {
     display: flex;
-    padding: 5%;
-    padding-left: 6em;
+    flex: 1 100%;
+    justify-content: center;
 }
 .buttons {
     display: flex;
