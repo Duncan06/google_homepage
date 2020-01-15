@@ -8,6 +8,10 @@
 }
 
 .nav-wrapper{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
     display: flex;
     justify-content: center;
     flex: 1 100%;
