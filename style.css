@@ -212,17 +212,25 @@
     flex: 1;
     list-style: none;
     color: #5f6368;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 40px;
 }
 
 .footer li {
+    display: flex;
+    justify-content: flex-start;
     flex: .2;
-    padding-left: 27px;
     margin: 0 !important;
     white-space: nowrap;
 }
 
-.right {
+.footer .right {
+    display: flex;
+    flex: 1;
     justify-content: flex-end;
+}
+
+.footer .right li {
+    display: flex;
+    justify-content: center;
 }
