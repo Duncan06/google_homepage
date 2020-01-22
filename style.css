@@ -4,7 +4,7 @@
     height: 50vh;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    margin: 7px 0 0 10px;
 }
 
 .nav-wrapper{
@@ -25,11 +25,29 @@
 
 .nav-wrapper li {
     flex: .12;
+    font-size: 13px;
     list-style: none;
+}
+
+.nav-wrapper li a {
+    display: inline-block;
+    padding-left: 15px;
+    color: rgba(0,0,0,0.87);
+    opacity: 0.75;
+    text-decoration: none;
 }
 
 .nav-wrapper ul.end {
     justify-content: flex-end;
+}
+
+ul.end li a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+.nav-wrapper .Sign-in a {
+    color: #fff;
 }
 
 .dots {
@@ -194,11 +212,12 @@
 
 
 .footer {
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     flex: 1 100%;
     background:#f2f2f2;
     line-height: 40px;
+    margin-left: -27px;
     min-width: 980px;
     border-top: 1px solid#e4e4e4;
     bottom: 0;
@@ -209,28 +228,21 @@
 
 .footer ul {
     display: flex;
-    flex: 1;
+    flex: .4;
     list-style: none;
     color: #5f6368;
     font-size: 12px;
-    line-height: 40px;
+    line-height: 5px;
 }
 
 .footer li {
-    display: flex;
-    justify-content: flex-start;
-    flex: .2;
+    display: inline-block;
+    padding-left: 27px;
     margin: 0 !important;
     white-space: nowrap;
 }
 
 .footer .right {
-    display: flex;
-    flex: 1;
     justify-content: flex-end;
-}
-
-.footer .right li {
-    display: flex;
-    justify-content: center;
+    padding-right: 27px;
 }
